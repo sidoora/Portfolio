@@ -616,6 +616,20 @@ section {
   color: #ffd670;
 }
 
+.project-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.project-link-primary {
+  color: var(--mint);
+}
+
+.project-link-primary:hover {
+  color: #8ff2cc;
+}
+
 /* Timeline */
 .timeline {
   display: flex;

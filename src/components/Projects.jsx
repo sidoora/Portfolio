@@ -12,9 +12,10 @@ const PROJECTS = [
     period: 'Summer 2025',
     tag: 'Full-Stack',
     description:
-      'A full-stack site for an artisanal bakery, built with Next.js and TypeScript — real product photography, a client-side contact form, and a server-side API route that validates and handles submissions.',
+      'A full-stack site built for my mom\'s home-based confectionery business, using Next.js and TypeScript — real product photography, a client-side contact form, and a server-side API route that validates and handles submissions.',
     highlight: 'Next.js · TypeScript · Tailwind · API routes',
     url: 'https://github.com/sidoora/Koozintea-Website',
+    liveUrl: 'https://koozintea-website.vercel.app/',
   },
   {
     title: 'Academic Procrastination Study',
@@ -43,11 +44,18 @@ export default function Projects() {
               <p className="project-desc">{p.description}</p>
               <div className="project-card-bottom">
                 <span className="project-highlight">{p.highlight}</span>
-                {p.url && (
-                  <a href={p.url} target="_blank" rel="noopener noreferrer" className="project-link">
-                    View code →
-                  </a>
-                )}
+                <div className="project-links">
+                  {p.liveUrl && (
+                    <a href={p.liveUrl} target="_blank" rel="noopener noreferrer" className="project-link project-link-primary">
+                      Live demo ↗
+                    </a>
+                  )}
+                  {p.url && (
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" className="project-link">
+                      View code →
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
@@ -56,3 +64,4 @@ export default function Projects() {
     </section>
   )
 }
+
