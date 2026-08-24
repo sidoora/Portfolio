@@ -15,8 +15,6 @@ export default function Hero() {
           <a href="#contact" className="btn btn-ghost">Get in touch</a>
         </div>
         <div className="hero-meta">
-          <span>Cybersecurity Concentration</span>
-          <span className="sep">/</span>
           <span>Minors: Math &amp; Japanese</span>
           <span className="sep">/</span>
           <span>Fayetteville, AR</span>
