@@ -8,7 +8,7 @@ export default function Contact() {
           I'm looking for internships in software engineering or cybersecurity. Reach out any time.
         </p>
         <a href="mailto:sidoora16@gmail.com" className="btn btn-primary contact-email">
-          saraache@uark.edu
+          sidoora16@gmail.com
         </a>
       </div>
     </section>
