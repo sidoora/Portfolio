@@ -1,7 +1,7 @@
 const GROUPS = [
   {
     label: 'Languages',
-    items: ['C++', 'Python', 'Java', 'JavaScript', 'HTML', 'CSS', 'C'],
+    items: ['C++', 'Python', 'Java', 'JavaScript', 'HTML', 'CSS', 'C', 'Git'],
   },
   {
     label: 'Frameworks & tools',

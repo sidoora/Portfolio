@@ -9,7 +9,7 @@ const PROJECTS = [
   },
   {
     title: 'Koozintea — Bakery Website',
-    period: 'Summer 2025',
+    period: 'Summer 2026',
     tag: 'Full-Stack',
     description:
       'A full-stack site built for my mom\'s home-based confectionery business, using Next.js and TypeScript — real product photography, a client-side contact form, and a server-side API route that validates and handles submissions.',

@@ -2,9 +2,8 @@ const COURSEWORK = [
   'Computer Architecture',
   'Programming Paradigms',
   'Operating Systems',
-  'Programming Foundations I & II',
-  'Digital Design',
-  'Computer Organization',
+  'Embedded Systems',
+  'Systems Syntheis and Modeling',
 ]
 
 const LANGUAGES = [
@@ -23,16 +22,15 @@ export default function About() {
           <div className="eyebrow">About</div>
           <h2 className="section-heading">Building things, then rebuilding them better.</h2>
           <p className="about-body">
-            I'm a Computer Science student at the University of Arkansas, concentrating in
-            cybersecurity with minors in Mathematics and Japanese, graduating May 2027. Most of
+            I'm a Computer Science student at the University of Arkansas, with minors in Mathematics and Japanese, graduating December 2027. Most of
             what I've learned has come from taking one project and reworking it under different
             constraints — a different language, a different paradigm, a different set of rules —
             until I actually understood why it worked the first time.
           </p>
           <p className="about-body">
             Outside coursework, I coordinate development initiatives for a cultural nonprofit,
-            mentor freshman engineering researchers, and lead professional programming for a
-            300+ member engineering fraternity.
+            work on personal programming projects, and actively engage in a
+            80+ member co-ed engineering fraternity.
           </p>
           <div className="lang-strip">
             {LANGUAGES.map((l) => (

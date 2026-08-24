@@ -13,7 +13,7 @@ const EXPERIENCE = [
     role: 'Professional Chair',
     org: 'Theta Tau Professional Engineering Fraternity',
     place: '',
-    period: 'Jan 2026 – Present',
+    period: 'Jan 2026 – May 2026',
     points: [
       'Organize professional development events, including networking sessions and industry workshops',
       'Foster career readiness by connecting members with industry professionals',
